@@ -1,8 +1,8 @@
 
 
-# **TrendsGPT**
+# **Trends**
 
-TrendsGPT is an automated AI agent designed for data analysis and market research. It identifies trending news articles from Reddit, determines sentiment, extracts article content, identifies key trending keywords, and even suggests T-shirt ideas based on the article content!
+Trends is an Streamlit based automated AI agent designed for data analysis and market research. It identifies trending news articles from Reddit, determines sentiment, extracts article content, identifies key trending keywords, and even suggests T-shirt ideas based on the article content!
 
 ## **Table of Contents**
 
@@ -35,7 +35,7 @@ git clone <repository-link>
 2. Navigate to the directory and install required Python packages:
 ```bash
 cd <repository-name>
-pip install praw openai requests beautifulsoup4 pytrends pandas
+pip install praw openai requests beautifulsoup4 pytrends pandas streamlit
 ```
 
 ## **How to Use**
@@ -47,7 +47,7 @@ pip install praw openai requests beautifulsoup4 pytrends pandas
 ```bash
 python <script-name>.py
 ```
-3. Results will be saved in a CSV file named `memeworthy_articles.csv`.
+3. Results will be saved in a CSV file named `articles.csv`.
 
 ## **Code Overview**
 
