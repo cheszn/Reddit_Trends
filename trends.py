@@ -99,7 +99,7 @@ def get_article_summary(article):
 
 
 # --- Streamlit Interface ---
-st.title("Memeworthy Article Analyzer")
+st.title("Article Analyzer")
 
 # User Inputs
 subreddit_input = st.text_input("Enter subreddit (e.g., news)", value="news")
@@ -140,6 +140,6 @@ if st.button("Fetch and Analyze Articles"):
         # Download button
         csv = df.to_csv(index=False).encode('utf-8')
         st.download_button(label="Download data as CSV", data=csv,
-                           file_name='memeworthy_articles.csv', mime='text/csv')
+                           file_name='articles.csv', mime='text/csv')
 
 # --- End of Streamlit App ---
